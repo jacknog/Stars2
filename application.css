@@ -1,0 +1,102 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+	-fx-background-color: black;
+}
+.menuBar {
+	-fx-background-color: #3a3b3c;
+}
+.menuBar .label {
+	-fx-font-size: 12px;
+	-fx-font-family: "Bookman Old Style";
+	-fx-text-fill: white;
+}
+.menu-item {
+	-fx-background: black;
+	-fx-text-fill: white;
+}
+.menu-item .label:hover {
+	-fx-font-size: 14px; 
+	-fx-background: black;
+	-fx-text-fill: white;
+}
+/*
+ * Set Label Colors for DARK MODE
+ */
+.select {
+	-fx-padding: 10,10,10,10;
+	-fx-text-fill: white;
+}
+.stat {
+	-fx-padding: 10,10,10,10;
+	-fx-text-fill: white;
+}
+.fTL {
+	-fx-padding: 10,10,10,10;
+	-fx-text-fill: white;
+}
+.fBL {
+	-fx-padding: 10,10,10,10;
+	-fx-text-fill: white;
+}
+.fFL {
+	-fx-padding: 10,10,10,10;
+	-fx-text-fill: white;
+}
+.selectStar {
+	-fx-padding: 0, 10, 0, 0;
+	-fx-text-fill: white;
+}
+.sIL {
+	-fx-text-fill: white;
+}
+/*
+ * light&dark buttons
+ */
+ 
+.light {
+	-fx-background-color: black;
+}
+.dark {
+	-fx-background-color: black;
+}
+/*
+ * Set ComboBox colors/styling
+ */
+.leftCBX {
+	-fx-pref-width: 150;	
+}
+.leftCBX .list-cell {
+	-fx-background-color: grey;
+	-fx-font-family: "Lucida Sans Unicode";
+	-fx-font-size: 12px;
+}
+.leftCBX-popup .list-view {
+	-fx-background-color: grey, grey;
+	-fx-background-insets: 0, 1;
+	-fx-effect: dropshadow( three-pass-box, rgba(255,255,255,0.6), 8, 0.0, 0, 0); 
+}
+.leftCBX .list-cell:filled:selected {
+	-fx-text-fill: white;
+}
+/*
+ * starListView Styling
+ */
+.list-cell:filled:selected:focused .list-cell:filled:selected {
+	-fx-pref-width: 150;
+	-fx-background-color: grey;
+}
+.sTV {
+	-fx-background-color: grey;
+	-fx-pref-width: 300;
+}
+.list-cell:even {
+	-fx-background-color: #3a3b3c;
+	-fx-text-fill: white;
+}
+.list-cell:odd {
+	-fx-background-color: grey;
+	-fx-text-fill: white;
+}
+.lis-cell:filled:hover {
+	-fx-background-color: black;
+}
